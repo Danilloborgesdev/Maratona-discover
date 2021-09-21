@@ -1,0 +1,108 @@
+/* Formatação Geral */
+* {
+    margin: 0; /*é o espaço fora da borda */
+    padding: 0; /*é o espaço entre o conteúdo e a borda */
+    box-sizing:border-box  /*Faz com que o navegador não calcule a dimensão 
+    de um elemento somando bordas e margens com altura e largura */
+}
+body {
+    background-color: #f0f2f5;
+    font-family: 'poppins', sans-serif;
+}
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: midnightblue;
+    font-weight: normal; /*especifica o peso ou a intensidade da fonte*/
+}
+/* Header====Cabeçalho */
+
+header {
+    background:darkgreen;
+    padding: 2rem 0 10rem ;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 100; /*especifica o peso ou a intensidade da fonte*/
+}
+/* Balance====Balanço */
+
+#balance {
+    margin-top: -8rem;
+
+}
+#balance h2 {
+    color: white;
+
+}
+
+/* Card */
+.card {
+    background-color: white;
+    border-radius: 5px ; /*borda arredondada */
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem; /*margem debaixo */
+    color:midnightblue
+}
+.card h3 {
+        font-weight: normal; /*especifica o peso ou a intensidade da fonte*/
+        font-size: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem; /*permite controlar o espaçamento entre as linhas de um texto */
+    margin-top: 1rem;
+}
+.card.total{
+    background-color: lime;
+    color: white;
+}
+/* Table====Tabelas */
+#date-table {
+    width: 100%; /*ocupa a largura toda da pagina*/
+    border-spacing: 0 0.5rem; /*espaço da borda nas tabelas  */
+    color:slategray;
+      
+}
+
+table  thead th {
+    background: white;
+    /* opacity: 0.5; dar uma tranparencia opaca menor numero maior opaco */
+    padding: 1rem 2rem;
+    color:slategray;
+    font-weight: normal;
+    text-align: left;
+    border-radius: 5px;
+}
+table tbody td {
+        background: white;
+        padding: 1rem 2rem;
+        color:slategray;
+        border-radius: 5px;
+}
+
+table tr {
+    opacity: 0.9
+}
+table tr:hover {
+    opacity: 40%
+}
+.descrição {
+    color: red;
+}
+.descriçao-positivo {
+    color:lime;
+}
+      
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    opacity: 0.6;
+}
